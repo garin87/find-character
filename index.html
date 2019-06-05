@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vavan</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="">
+	<meta charset="utf-8">
+	<style>
+	 .container{
+        width: 1600px !important; 
+ 	 }
+	.newText{
+		border: 1px solid black;
+		height: 450px;
+		overflow-y: scroll;
+		padding: 10px;
+		margin-top: 7px;
+	}
+	textarea{
+		overflow-y: scroll;
+		
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-6 input-text">
+			<form>
+				<div class="form-group">
+						<h2>Введите текст</h2>
+					<textarea class="form-control textarea" id="iputText" rows="15" value=''></textarea>
+				</div>
+			</form>
+		</div>
+		<div class="col-6 view-result">
+			<button type="button" class="btn btn-outline-primary" id="viewResult">Показать результат</button>
+			<div class="newText" id="newText">
+			</div>
+		</div>
+	</div>
+</div>	
+<script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
